@@ -13,7 +13,7 @@ class UserController extends GetxController {
   var isLoading = false.obs;
 
   int _lastId = 0;
-  final int _perPage = 10;
+  final int _perPage = 20;
   bool _hasMore = true;
 
   ScrollController scrollController = ScrollController();
